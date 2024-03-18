@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 74);
+    font-family: 'Montserrat', sans-serif;
+}
+.link{
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    background-color: rgb(0, 0, 74);
+    height: 50px;
+    justify-items: center;
+    color: white;
+    align-items: center;
+}
+.nav-img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+ 
+}
+.profile{
+    display: flex;
+    flex-flow: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.title{
+    text-align: center;
+    
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: full;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box-con{
+    display: flex;
+    flex-flow: row;
+    column-gap: 30px;
+    margin-top: 30px;
+    
+}
+.box{
+    height: 240px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.166);   
+    -webkit-backdrop-filter: blur(5px);
+     backdrop-filter: blur(5px);
+    border: 1px solid white;
+}
+
+h4{
+    color: white;
+}
+
+.circ1{
+    position: absolute;
+    background-color: rgba(98, 98, 253, 0.166);   
+    filter: blur(10px);
+    left: 0;
+    right: 0;
+    margin-left: -50px;
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    z-index: 3;
+}
+.circ2{
+    position: absolute;
+    background-color: rgba(98, 98, 253, 0.166);   
+    filter: blur(10px);
+    right: 0;
+    margin-bottom: -50px;
+    bottom: 0;
+    margin-right: -40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 3;
+}
+.box1{
+    color: white;
+}
+.box2, .box3{
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.bi-lock{
+    background: none;
+    color: white;
+}
+.bi{
+    background: none;
+}
+.card {
+    position: relative;
+    /* Style your card here */
+  }
+  
+  .bi-lock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px; /* Adjust as needed */
+  }
+  
+  .lock::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 20px;
+    border: 3px solid black; /* adjust color as needed */
+    border-radius: 50% 50% 0 0;
+    transform: rotate(-45deg);
+  }
+  
+  .lock::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 10px;
+    border: 3px solid black; /* adjust color as needed */
+    border-radius: 0 0 5px 5px;
+  }
+  
